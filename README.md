@@ -1,9 +1,7 @@
 # Bank Transactions SQL Portfolio (Oracle SQL)
-
-Orta səviyyəli, portfolio üçün hazırlanmış Oracle SQL layihəsi. Bank tranzaksiya
-datası üzərində **single-row functions**, **INNER/LEFT JOIN**, **CTE (WITH)** və
-**window functions** (`ROW_NUMBER`, `RANK`, `DENSE_RANK`, `LAG`, `LEAD`, `NTILE`)
-nümunələri ilə tapşırıqlar və hazır həllər.
+Bank tranzaksiya datası üzərində single-row functions, INNER/LEFT JOIN, CTE (WITH) və
+window functions (`ROW_NUMBER`, `RANK`, `DENSE_RANK`, `LAG`, `LEAD`, `NTILE`)
+nümunələri ilə tapşırıqlar
 
 ## Data həcmi
 - 6 filial (`branches`)
@@ -19,9 +17,6 @@ nümunələri ilə tapşırıqlar və hazır həllər.
 | `03_tasks_and_solutions.sql` | 5 bölmə üzrə tapşırıqlar və hazır həllər (single-row functions, INNER JOIN, LEFT JOIN, CTE, Window Functions) |
 | `04_results_analysis.sql` | Sorğu nəticələrinə əsaslanan yekun analiz (komment şəklində) |
 
-## İşə salma
-Fayllar ardıcıl icra olunmalıdır (Oracle SQL uyğun mühitlərdə, məs. Oracle Live SQL,
-Oracle SQL Developer və ya oxşar onlayn Oracle sandboxlarında):
 
 ```sql
 @01_schema.sql
@@ -29,8 +24,7 @@ Oracle SQL Developer və ya oxşar onlayn Oracle sandboxlarında):
 @03_tasks_and_solutions.sql
 ```
 
-`04_results_analysis.sql` icra tələb etmir — yalnız komment şəklində yazılmış
-yekun analizdir, README kimi oxuna bilər.
+
 
 ## Mövzular
 - **Single-row functions:** `UPPER`, `LOWER`, `SUBSTR`, `INSTR`, `TO_CHAR`,
