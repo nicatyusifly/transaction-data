@@ -1,21 +1,3 @@
-/*
-================================================================================
- 03_tasks_and_solutions.sql
- BANK TRANSACTIONS SQL PORTFOLIO PROJECT (ORACLE SQL)
-
- Bu fayl: 01_schema.sql ve 02_seed_data.sql icra edildikden sonra ise dusur.
- Data: 6 filial, 30 musteri (2 muşteri tranzaksiyasız), ~760 tranzaksiya,
-       2024-01-01 - 2024-06-30 araligi.
-
- Seviyye: Orta (Intermediate)
- Movzular: Single-row functions | INNER JOIN | LEFT JOIN | CTE (WITH) |
-           Window Functions (ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD)
-
- Struktur: her tapşırıq once komment ile izah olunur, sonra hell (SELECT)
-           sorğusu verilir.
-================================================================================
-*/
-
 
 /* ============================================================
    BÖLMƏ A — SINGLE-ROW FUNCTIONS
